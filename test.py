@@ -21,11 +21,11 @@ shape = marm.shape
 noise =  1.5 * marm.std() * np.random.random(marm.shape)
 noisy = marm + noise
 
-plt.figure(figsize=[20,20])
-plt.subplot(1,2,1)
-plt.imshow(marm,cmap=plt.cm.seismic)
-plt.subplot(1,2,2)
-plt.imshow(noisy,cmap=plt.cm.seismic)
+# plt.figure(figsize=[20,20])
+# plt.subplot(1,2,1)
+# plt.imshow(marm,cmap=plt.cm.seismic)
+# plt.subplot(1,2,2)
+# plt.imshow(noisy,cmap=plt.cm.seismic)
 
 
 #%%
